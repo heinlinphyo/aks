@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+}
+h1, h4{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid black;
+}
+div{
+    display: inline-block;
+}
+.wrapper{
+    width: 100%;
+}
+.header{
+    background-color: white;
+    line-height: 4em;
+    display: block;
+}
+.logo{
+    padding-left: 10px;
+    
+}
+.logout{  
+    position: absolute;
+    right: 5px;
+}
+.main_content{
+    width: 100%;
+}
+.main_head{
+    display: block;
+    padding: 30px 0;
+}
+.head_image{
+    width: 50%;
+    text-align: center;
+}
+.head_image img{
+    border-radius: 50%;
+    width: 200px;
+    margin: 20px auto;
+}
+.head_text{
+    width: 50%;
+    position: absolute;
+    text-align: start;
+    top: 170px;
+}
+.content_image{
+    padding: 0 17px;
+}
+.content_image >  div{
+    margin: 5px 10px;
+}
+.content_image div img{
+    width: 400px;
+}
